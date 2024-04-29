@@ -1,0 +1,18 @@
+*** Now run 'gdb' in another window.
+
+xv6 kernel is booting
+
+hart 2 starting
+hart 1 starting
+init: starting sh
+$ mkdir nz2yhnni
+$ echo > nz2yhnni/bWxME3G7
+$ mkdir nz2yhnni/iJpwkh9P
+$ echo > nz2yhnni/iJpwkh9P/bWxME3G7
+$ mkdir dp3DGlOp
+$ echo > dp3DGlOp/bWxME3G7
+$ find . bWxME3G7
+./nz2yhnni/bWxME3G7
+./nz2yhnni/iJpwkh9P/bWxME3G7
+./dp3DGlOp/bWxME3G7
+$ qemu-system-riscv64: terminating on signal 15 from pid 12749 (make)
