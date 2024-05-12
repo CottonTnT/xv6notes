@@ -258,6 +258,14 @@ def check_time():
     except IOError:
         raise AssertionError('Cannot read time.txt')
 
+def check_answers(file, n=10):
+    try:
+        with open(file) as f:
+            d = f.read().strip()
+            if len(d) < n:
+                raise AssertionError('%s does not seem to contain enough text' % file)
+    except IOError:
+        raise AssertionError('Cannot read %s' % file) 
 
 ##################################################################
 # Controllers
